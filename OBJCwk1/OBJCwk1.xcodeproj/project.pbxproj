@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2570A2152514A200997131 /* GITlinks.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF2570A1152514A200997131 /* GITlinks.txt */; };
 		BF7E57DA152130E300A1829B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E57D9152130E300A1829B /* UIKit.framework */; };
 		BF7E57DC152130E300A1829B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E57DB152130E300A1829B /* Foundation.framework */; };
 		BF7E57DE152130E300A1829B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E57DD152130E300A1829B /* CoreGraphics.framework */; };
@@ -15,10 +16,10 @@
 		BF7E57EA152130E300A1829B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E57E9152130E300A1829B /* AppDelegate.m */; };
 		BF7E57ED152130E300A1829B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E57EC152130E300A1829B /* ViewController.m */; };
 		BF7E57F0152130E300A1829B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7E57EE152130E300A1829B /* ViewController.xib */; };
-		BF7E57F71521688B00A1829B /* BGtest4.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7E57F61521688B00A1829B /* BGtest4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF2570A1152514A200997131 /* GITlinks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GITlinks.txt; sourceTree = "<group>"; };
 		BF7E57D5152130E300A1829B /* OBJCwk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBJCwk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7E57D9152130E300A1829B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF7E57DB152130E300A1829B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,7 +33,6 @@
 		BF7E57EB152130E300A1829B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF7E57EC152130E300A1829B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF7E57EF152130E300A1829B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		BF7E57F61521688B00A1829B /* BGtest4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGtest4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +79,13 @@
 		BF7E57DF152130E300A1829B /* OBJCwk1 */ = {
 			isa = PBXGroup;
 			children = (
-				BF7E57F61521688B00A1829B /* BGtest4.png */,
 				BF7E57E0152130E300A1829B /* Supporting Files */,
 				BF7E57E8152130E300A1829B /* AppDelegate.h */,
 				BF7E57E9152130E300A1829B /* AppDelegate.m */,
 				BF7E57EB152130E300A1829B /* ViewController.h */,
 				BF7E57EC152130E300A1829B /* ViewController.m */,
 				BF7E57EE152130E300A1829B /* ViewController.xib */,
+				BF2570A1152514A200997131 /* GITlinks.txt */,
 			);
 			path = OBJCwk1;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			files = (
 				BF7E57E4152130E300A1829B /* InfoPlist.strings in Resources */,
 				BF7E57F0152130E300A1829B /* ViewController.xib in Resources */,
-				BF7E57F71521688B00A1829B /* BGtest4.png in Resources */,
+				BF2570A2152514A200997131 /* GITlinks.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +278,7 @@
 				BF7E57F5152130E300A1829B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
