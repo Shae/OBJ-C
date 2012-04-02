@@ -79,7 +79,7 @@
     ////////SUMMARY LABEL//////////
     sumLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 150, 100, 20)];
     if (sumLabel != nil) {
-        sumLabel.text = @"Published: ";
+        sumLabel.text = @"Summary: ";
         sumLabel.textColor = [UIColor orangeColor];
         sumLabel.backgroundColor = [UIColor whiteColor];
         sumLabel.textAlignment = UITextAlignmentLeft;
@@ -99,6 +99,8 @@
     [self.view addSubview: bookSum];
     ////////////////////////////////
     
+    
+    
     ////////LIST LABEL//////////
     listLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 330, 150, 20)];
     if (listLabel != nil) {
@@ -108,46 +110,22 @@
         listLabel.textAlignment = UITextAlignmentLeft;
     }
     [self.view addSubview: listLabel];
-    
-    
-    ////////////////////////////////
-   
-    NSArray *itemsArray = [[NSArray alloc] initWithObjects:@"Boogers", @"Snotty Scoundrels", @"Phlegm", @"Trolls", @"Princesses", nil];
-    
-    NSMutableArray *mutArray = [[NSMutableArray alloc] initWithCapacity:5];
-                                
-    [mutArray addObject: itemsArray];
-    
-    
-    for (int i=0; i<[mutArray count]; i++) 
-    {
-        NSLog(@"%@", [mutArray objectAtIndex:i]);
-        NSLog(@"%@", mutArray);
-    }
-    
-    
-    ////////////SUMMARY/////////////
-    list = [[UILabel alloc] initWithFrame:CGRectMake(10, 170, 300, 140)];
-  
-   // wordArray = [[NSArray alloc] initWithObjects:
-    //             @"Army", @"Burt", @"Carmen", nil];
 
-
+    NSArray *itemsArray = [[NSArray alloc] initWithObjects:@"Boogers", @"Scoundrels", @"Phlegm", @"Trolls", @"Princesses", nil];
+    NSMutableArray *mutArray = [[NSMutableArray alloc] initWithArray:itemsArray];
     
+    
+    ////////////LIST/////////////
+    list = [[UILabel alloc] initWithFrame:CGRectMake(10, 350, 300, 50)];
     
     if (list != nil) {
-        for (int i=0; i<[mutArray count]; i++){
-        list.text = [mutArray objectAtIndex:i];
-        }
+        list.text = [NSString stringWithFormat:@"%@, %@, %@, %@ and %@", [mutArray objectAtIndex:0], [mutArray objectAtIndex:1], [mutArray objectAtIndex:2], [mutArray objectAtIndex:3], [mutArray objectAtIndex:4] ];
         list.textColor = [UIColor purpleColor];
         list.backgroundColor = [UIColor redColor];
         list.textAlignment = UITextAlignmentCenter;
         list.numberOfLines = 5;
-    }
-    
+    }    
     [self.view addSubview: list];
-   
-  
     ////////////////////////////////
     
     
