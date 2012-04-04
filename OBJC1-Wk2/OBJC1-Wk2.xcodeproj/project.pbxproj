@@ -15,6 +15,7 @@
 		BF9AA94F1527CD1D00E9E1C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9AA94E1527CD1D00E9E1C0 /* AppDelegate.m */; };
 		BF9AA9521527CD1D00E9E1C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9AA9511527CD1D00E9E1C0 /* ViewController.m */; };
 		BF9AA9551527CD1D00E9E1C0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9AA9531527CD1D00E9E1C0 /* ViewController.xib */; };
+		BFD30F5E152CA60B00F97947 /* GitHubLinks.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFD30F5D152CA60B00F97947 /* GitHubLinks.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BF9AA9501527CD1D00E9E1C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF9AA9511527CD1D00E9E1C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF9AA9541527CD1D00E9E1C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BFD30F5D152CA60B00F97947 /* GitHubLinks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GitHubLinks.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				BF9AA9511527CD1D00E9E1C0 /* ViewController.m */,
 				BF9AA9531527CD1D00E9E1C0 /* ViewController.xib */,
 				BF9AA9451527CD1D00E9E1C0 /* Supporting Files */,
+				BFD30F5D152CA60B00F97947 /* GitHubLinks.txt */,
 			);
 			path = "OBJC1-Wk2";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				BF9AA9491527CD1D00E9E1C0 /* InfoPlist.strings in Resources */,
 				BF9AA9551527CD1D00E9E1C0 /* ViewController.xib in Resources */,
+				BFD30F5E152CA60B00F97947 /* GitHubLinks.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				BF9AA95A1527CD1D00E9E1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

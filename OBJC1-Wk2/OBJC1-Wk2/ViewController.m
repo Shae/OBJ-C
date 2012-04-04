@@ -79,7 +79,7 @@
     ////////SUMMARY LABEL//////////
     sumLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 150, 100, 20)];
     if (sumLabel != nil) {
-        sumLabel.text = @"Summary: ";
+        sumLabel.text = @" Summary: ";
         sumLabel.textColor = [UIColor orangeColor];
         sumLabel.backgroundColor = [UIColor whiteColor];
         sumLabel.textAlignment = UITextAlignmentLeft;
@@ -104,7 +104,7 @@
     ////////LIST LABEL//////////
     listLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 330, 150, 20)];
     if (listLabel != nil) {
-        listLabel.text = @"List of Items: ";
+        listLabel.text = @" List of Items: ";
         listLabel.textColor = [UIColor redColor];
         listLabel.backgroundColor = [UIColor purpleColor];
         listLabel.textAlignment = UITextAlignmentLeft;
