@@ -35,7 +35,7 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUILabel" id="588230624">
+					<object class="IBUILabel" id="448061100">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{187, 140}, {395, 108}}</string>
@@ -48,7 +48,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<string key="IBUIText">Shae Klusman</string>
-						<object class="NSColor" key="IBUITextColor" id="232189846">
+						<object class="NSColor" key="IBUITextColor" id="1015815876">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
 						</object>
@@ -66,7 +66,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUILabel" id="18794074">
+					<object class="IBUILabel" id="635461122">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{260, 208}, {237, 74}}</string>
@@ -79,7 +79,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<string key="IBUIText">Objective C - 1</string>
-						<reference key="IBUITextColor" ref="232189846"/>
+						<reference key="IBUITextColor" ref="1015815876"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -94,7 +94,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUILabel" id="706717374">
+					<object class="IBUILabel" id="1023382996">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{303, 685}, {163, 56}}</string>
@@ -107,7 +107,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<string key="IBUIText">Class 1204</string>
-						<reference key="IBUITextColor" ref="232189846"/>
+						<reference key="IBUITextColor" ref="1015815876"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -122,7 +122,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUILabel" id="287552257">
+					<object class="IBUILabel" id="494270151">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{224, 373}, {321, 143}}</string>
@@ -140,7 +140,7 @@
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
 						<nil key="IBUIHighlightedColor"/>
-						<reference key="IBUIShadowColor" ref="232189846"/>
+						<reference key="IBUIShadowColor" ref="1015815876"/>
 						<string key="IBUIShadowOffset">{2, 2}</string>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -203,31 +203,31 @@
 						<int key="objectID">2</int>
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="588230624"/>
-							<reference ref="287552257"/>
-							<reference ref="18794074"/>
-							<reference ref="706717374"/>
+							<reference ref="448061100"/>
+							<reference ref="494270151"/>
+							<reference ref="635461122"/>
+							<reference ref="1023382996"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="588230624"/>
+						<reference key="object" ref="448061100"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
-						<reference key="object" ref="18794074"/>
+						<reference key="object" ref="635461122"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="706717374"/>
+						<reference key="object" ref="1023382996"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">7</int>
-						<reference key="object" ref="287552257"/>
+						<reference key="object" ref="494270151"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 				</array>

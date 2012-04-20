@@ -48,15 +48,19 @@
 
 -(BOOL)COMPARE:(int)numberX with:(int)numberY{
     
-    sameYES = [NSString stringWithFormat:@"The numbers %d and %d are the same!", red, blue ];
-    sameNO = [NSString stringWithFormat:@"The numbers %d and %d are NOT the same!", red, blue ]; 
-    
+    sameYES = [NSString stringWithFormat:@"Are the numbers %d and %d the same? YES", red, blue ];
+    sameNO = [NSString stringWithFormat:@"Are the numbers %d and %d the same? NO", red, blue ];      
     if (numberX == numberY) {
-        [self displayAlertWithString:sameYES];        
+         compValue = @"YES";        
+        [self displayAlertWithString:sameYES];
+       
     }else{
+        compValue = @"NO";        
         [self displayAlertWithString:sameNO]; 
+        
     }
     return 0;
+   
 }
 
 

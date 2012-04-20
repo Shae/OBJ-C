@@ -23,6 +23,7 @@
     NSString *sameYES;
     NSString *sameNO;
     NSString *myNewString;
+    NSString *compValue;
 }
 
 - (int) ADD:(int)numberX with:(int)numberY;

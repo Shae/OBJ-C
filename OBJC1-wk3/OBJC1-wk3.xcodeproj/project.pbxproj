@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7BB2AB15410FBC0096820A /* NOTES in Resources */ = {isa = PBXBuildFile; fileRef = BF7BB2AA15410FBC0096820A /* NOTES */; };
 		BFD30F74152F745B00F97947 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD30F73152F745B00F97947 /* UIKit.framework */; };
 		BFD30F76152F745B00F97947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD30F75152F745B00F97947 /* Foundation.framework */; };
 		BFD30F78152F745B00F97947 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD30F77152F745B00F97947 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF7BB2AA15410FBC0096820A /* NOTES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTES; sourceTree = "<group>"; };
 		BFD30F6F152F745B00F97947 /* OBJC1-wk3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OBJC1-wk3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD30F73152F745B00F97947 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFD30F75152F745B00F97947 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +79,7 @@
 		BFD30F79152F745B00F97947 /* OBJC1-wk3 */ = {
 			isa = PBXGroup;
 			children = (
+				BF7BB2AA15410FBC0096820A /* NOTES */,
 				BFD30F82152F745B00F97947 /* AppDelegate.h */,
 				BFD30F83152F745B00F97947 /* AppDelegate.m */,
 				BFD30F85152F745B00F97947 /* ViewController.h */,
@@ -150,6 +153,7 @@
 			files = (
 				BFD30F7E152F745B00F97947 /* InfoPlist.strings in Resources */,
 				BFD30F8A152F745B00F97947 /* ViewController.xib in Resources */,
+				BF7BB2AB15410FBC0096820A /* NOTES in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +280,7 @@
 				BFD30F8F152F745B00F97947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
