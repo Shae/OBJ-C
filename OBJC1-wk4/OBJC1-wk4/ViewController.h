@@ -12,10 +12,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *username;
 @property (weak, nonatomic) IBOutlet UILabel *PrintLabel;
 @property (weak, nonatomic) IBOutlet UILabel *infoLabel;
-//- (IBAction)login:(id)sender;
-//- (IBAction)HiddenBtn:(id)sender;
-//- (IBAction)ShowDateBtn:(id)sender;
-//- (IBAction)infoBtn:(id)sender;
+
 - (void)displayAlertWithString:(NSString*)StringIN;
 - (void)onClick:(UIButton*)button;
 

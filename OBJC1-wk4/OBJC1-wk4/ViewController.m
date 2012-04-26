@@ -2,7 +2,7 @@
 //  ViewController.m
 //  OBJC1-wk4
 //
-//  Created by Shae Klusman on 4/25/12.
+//  Created by Shae Klusman on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -35,9 +35,9 @@
     UIButton *dateBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     if (dateBtn != nil)
     {
-        dateBtn.frame = CGRectMake(20.0f, 260.0f, 80.0f, 40.0f);
+        dateBtn.frame = CGRectMake(20.0f, 260.0f, 100.0f, 40.0f);
         dateBtn.tintColor = [UIColor yellowColor];
-        [dateBtn setTitle: @"Get Date" forState:UIControlStateNormal];
+        [dateBtn setTitle: @"Show Date" forState:UIControlStateNormal];
         dateBtn.tag = 1;
         [dateBtn addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:dateBtn];
@@ -63,7 +63,8 @@
 
 
 
--(void)onClick:(UIButton*)button {
+-(void)onClick:(UIButton*)button 
+{
     if (button.tag == 0){
         
         if (username.text.length >= 1){
@@ -72,7 +73,7 @@
             [username resignFirstResponder];
         }else {
 
-            PrintLabel.text = @"Please enter Login ID" ;
+            PrintLabel.text = @"Username cannot be empty" ;
             [username resignFirstResponder];
         }
     }else if(button.tag == 1){
@@ -80,14 +81,15 @@
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         if (dateFormatter != nil) {
             //[dateFormatter setDateStyle:NSDateFormatterFullStyle];  // Doesn't work!!!!
-            [dateFormatter setDateFormat:@"EEEE, MMMM dd, yyyy hh:mm:ss a  zzzz"];
+            [dateFormatter setDateFormat:@"MMMM dd, yyyy hh:mm:ss a       zzzz"];
         }
         NSString *DateNow = [dateFormatter stringFromDate:date];
         [self displayAlertWithString:DateNow]; 
         
     }else if(button.tag == 2){
-        NSString *myInfo = @"This application was written by Shae Klusman.";
+        NSString *myInfo = @"This application was written by: Shae Klusman.";
         infoLabel.text = myInfo;
+        //infoLabel.backgroundColor = [UIColor whiteColor];
         
     }
 }
@@ -106,20 +108,15 @@
     // Release any retained subviews of the main view.
 }
 
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
-/*
-- (IBAction)login:(id)sender {
-    if (username.text != nil){
-        NSString *message1 = [[NSString alloc] initWithFormat:@" User: %@ has logged in.", username.text];
-        PrintLabel.text = message1 ;
-    }
-    
-}
-*/
-- (IBAction)HiddenBtn:(id)sender {
+
+
+- (IBAction)HiddenBtn:(id)sender 
+{
     [username resignFirstResponder];
   
 }
@@ -127,31 +124,18 @@
 
 
 
-- (void)displayAlertWithString:(NSString *)StringIN{
+- (void)displayAlertWithString:(NSString *)StringIN
+{
     UIAlertView *alert = [[UIAlertView alloc] 
                           initWithTitle:@"Date" 
                           message:StringIN 
                           delegate:nil 
                           cancelButtonTitle:@"Ok Fine!" 
                           otherButtonTitles:nil];
+
     [alert show];
 }
  
 
-/*
-- (IBAction)ShowDateBtn:(id)sender {
-         NSDate *date = [NSDate date];
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    if (dateFormatter != nil) {
-        //[dateFormatter setDateStyle:NSDateFormatterFullStyle];  // Doesn't work!!!!
-        [dateFormatter setDateFormat:@"MMMM dd, yyyy    hh:mm:ss a    zzzz"];
-    }
-    NSString *DateNow = [dateFormatter stringFromDate:date];
-    [self displayAlertWithString:DateNow]; 
-}
 
-- (IBAction)infoBtn:(id)sender {
-    NSString *myInfo = @"This application was written by Shae Klusman.";
-    infoLabel.text = myInfo;
-}*/
 @end

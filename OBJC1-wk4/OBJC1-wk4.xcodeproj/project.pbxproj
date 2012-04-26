@@ -15,6 +15,7 @@
 		BF7BB2CD1548B55C0096820A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7BB2CC1548B55C0096820A /* AppDelegate.m */; };
 		BF7BB2D01548B55C0096820A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7BB2CF1548B55C0096820A /* ViewController.m */; };
 		BF7BB2D31548B55C0096820A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7BB2D11548B55C0096820A /* ViewController.xib */; };
+		BF7BB2EA154A06A00096820A /* NOTES in Resources */ = {isa = PBXBuildFile; fileRef = BF7BB2E9154A06A00096820A /* NOTES */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BF7BB2CE1548B55C0096820A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF7BB2CF1548B55C0096820A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF7BB2D21548B55C0096820A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BF7BB2E9154A06A00096820A /* NOTES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTES; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BF7BB2CE1548B55C0096820A /* ViewController.h */,
 				BF7BB2CF1548B55C0096820A /* ViewController.m */,
 				BF7BB2D11548B55C0096820A /* ViewController.xib */,
+				BF7BB2E9154A06A00096820A /* NOTES */,
 				BF7BB2C31548B55C0096820A /* Supporting Files */,
 			);
 			path = "OBJC1-wk4";
@@ -150,6 +153,7 @@
 			files = (
 				BF7BB2C71548B55C0096820A /* InfoPlist.strings in Resources */,
 				BF7BB2D31548B55C0096820A /* ViewController.xib in Resources */,
+				BF7BB2EA154A06A00096820A /* NOTES in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
