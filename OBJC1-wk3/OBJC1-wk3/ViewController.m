@@ -34,8 +34,16 @@
     
     [self displayAlertWithString:alertString];  
     [self displayAlertWithString:myNewString];
-    [self COMPARE:red with:blue];   
     
+    
+    
+    BOOL BOOLSame = [self COMPARE:red with:blue]; 
+    NSString *checkSame = [NSString stringWithFormat:@"Are the numbers %d and %d the same? %@", red, blue, BOOLSame?@"YES":@"NO"]; 
+    [self displayAlertWithString:checkSame];
+    
+  
+
+   
     [super viewDidLoad];
 }
 
@@ -49,8 +57,9 @@
 -(BOOL)COMPARE:(int)numberX with:(int)numberY{
     
     sameYES = [NSString stringWithFormat:@"Are the numbers %d and %d the same? YES", red, blue ];
-    sameNO = [NSString stringWithFormat:@"Are the numbers %d and %d the same? NO", red, blue ];      
-    if (numberX == numberY) {
+    sameNO = [NSString stringWithFormat:@"Are the numbers %d and %d the same? NO", red, blue ];  
+    
+  /*  if (numberX == numberY) {
          compValue = @"YES";        
         [self displayAlertWithString:sameYES];
        
@@ -59,7 +68,13 @@
         [self displayAlertWithString:sameNO]; 
         
     }
-    return 0;
+    return 0;*/
+    
+    if (numberX == numberY) {
+        return YES; 
+    }else{
+        return NO;
+    }
    
 }
 
