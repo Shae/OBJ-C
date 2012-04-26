@@ -19,7 +19,8 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    // Login.tintcolor = [UIColor redColor];
+   // onClick.backgroundcolor = [UIColor redColor];     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -61,8 +62,7 @@
 }
 
 - (IBAction)ShowDateBtn:(id)sender {
-    
-    NSDate *date = [NSDate date];
+         NSDate *date = [NSDate date];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     if (dateFormatter != nil) {
         //[dateFormatter setDateStyle:NSDateFormatterFullStyle];
@@ -73,5 +73,7 @@
 }
 
 - (IBAction)infoBtn:(id)sender {
+    NSString *myInfo = @"This application was written by Shae Klusman.";
+    infoLabel.text = myInfo;
 }
 @end
